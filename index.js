@@ -1,7 +1,7 @@
 var a=Math.floor(Math.random()*6)+1;
 var b=Math.floor(Math.random()*6)+1;
-var c="images/dice"+a+".png";
-var d="images/dice"+b+".png";
+var c="dice"+a+".png";
+var d="dice"+b+".png";
 document.querySelectorAll("img")[0].setAttribute("src",c);
 document.querySelectorAll("img")[0].setAttribute("src",d);
 if(a>b){
